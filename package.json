@@ -1,0 +1,26 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "Task Manager REST API with Express, MongoDB (Mongoose) and in-memory caching using node-cache (ITUE301 Practical 9)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "benchmark": "node scripts/benchmark.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "node-cache",
+    "caching"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "node-cache": "^5.1.2"
+  }
+}
